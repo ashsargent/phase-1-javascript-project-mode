@@ -1,6 +1,8 @@
-/* css style*/
 
 .bodyClass{
-font:bolder;
-color: red;
+background: black;
+}
+
+.h1{
+    color: white;
 }
