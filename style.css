@@ -1,6 +1,13 @@
 
 .bodyClass{
-background: black;
+background-color:  #303030;
+background-image: url(./images/AS\ MONOCHROME.png);
+background-position-x: right;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+background-size: 10%;
+
 }
 
 .h1{
