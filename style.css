@@ -1,5 +1,6 @@
 /* css style*/
 
-.headerClass{
-margin: auto;
+.bodyClass{
+font:bolder;
+color: red;
 }
