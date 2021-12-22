@@ -16,13 +16,13 @@ document.getElementById("weights").addEventListener("click", function () {
 //hiit
 document.getElementById("HIIT").addEventListener("click", function () {
   console.log("ive been clicked");
-  document.querySelector(".modalClass").style.display = "block";
+  document.querySelector(".hiitClass").style.display = "block";
 });
 
 
-  document.getElementById("close").addEventListener("click", function () {
-    console.log("ive been clicked");
-    document.querySelector(".modalClass").style.display = "none";
+document.getElementById("close1").addEventListener("click", function () {
+  console.log("ive been clicked");
+  document.querySelector(".hiitClass").style.display = "none";
 
 });
 
@@ -32,13 +32,13 @@ document.getElementById("HIIT").addEventListener("click", function () {
 
 document.getElementById("meditate").addEventListener("click", function () {
   console.log("ive been clicked");
-  document.querySelector(".modalClass").style.display = "block";
+  document.querySelector(".meditateClass").style.display = "block";
 });
 
 
-  document.getElementById("close").addEventListener("click", function () {
+  document.getElementById("close2").addEventListener("click", function () {
     console.log("ive been clicked");
-    document.querySelector(".modalClass").style.display = "none";
+    document.querySelector(".meditateClass").style.display = "none";
 
 });
 
@@ -47,13 +47,13 @@ document.getElementById("meditate").addEventListener("click", function () {
 
 document.getElementById("Stretching").addEventListener("click", function () {
   console.log("ive been clicked");
-  document.querySelector(".modalClass").style.display = "block";
+  document.querySelector(".stretchClass").style.display = "block";
 });
 
 
-  document.getElementById("close").addEventListener("click", function () {
+  document.getElementById("close3").addEventListener("click", function () {
     console.log("ive been clicked");
-    document.querySelector(".modalClass").style.display = "none";
+    document.querySelector(".stretchClass").style.display = "none";
 
 });
 
