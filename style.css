@@ -5,11 +5,121 @@ background-image: url(./images/AS\ MONOCHROME.png);
 background-position-x: right;
 background-repeat: no-repeat;
 background-attachment: fixed;
-
-background-size: 10%;
+width: 70%;
+margin: 0% auto;
+font-family: 'Yaldevi', sans-serif;
+align-items: center;
+margin-bottom: 5%;
+background-size: 20%;
 
 }
 
+.flexbox-class{
+    display: flex;
+    
+    width: 80%;
+     align-items: center ;   
+    align-content: center;
+    margin-top: 5%;
+    margin-left: 2%;
+   
+}
+.flexboxItem{
+    max-width: 80%;
+ display: flex;
+ align-content: center;
+}
 .h1{
     color: white;
+    font-size: xx-large;
+    margin-top: 2%;
+    display: flex;
 }
+.weights{
+    border-radius: 20%;
+    width: 80%;
+    height: 80%;
+    cursor: pointer;
+
+}
+
+.hiit{
+    border-radius: 20%;
+    width: 80%;
+    height: 80%;
+
+}
+
+.chillout{
+    border-radius: 20%;
+    width: 80%;
+    height: 80%;
+}
+
+.stretch{
+    border-radius: 20%;
+    width: 80%;
+    height: 80%;
+}
+
+
+.topnav {
+    position: relative;
+    margin-top: 10px;
+    width: 80%;
+   display: flex;
+}
+    .searchinput {
+       
+        width: 900px;
+        
+    }
+ 
+.calcontainer{
+    display: flex;
+    background-color: blueviolet;
+    width: 80%;
+    margin-top: 10px;
+    border-color: black;
+    
+}
+
+.fitPar{
+color: white;
+width: 80%;
+display: flex;
+}
+
+.modalClass{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(48, 48, 48, 0.7);
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+}
+
+.modalcontent{
+    width: 60%;
+    height: 40%;
+background-color: rgba(red, green, blue, alpha);
+ position: relative;
+ top: 10px;
+ 
+
+}
+
+.closeButton{
+    color: white;
+    position: absolute;
+    float: right;
+   right: -115px;;
+   opacity: 0.5;
+  cursor: pointer;
+
+}
+
+
